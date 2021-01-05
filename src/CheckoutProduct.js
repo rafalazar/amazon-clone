@@ -2,6 +2,7 @@ import React from 'react';
 import './CheckoutProduct.css';
 
 const CheckoutProduct = ({id, image, title, price, rating}) => {
+
     return (
         <div className="checkoutProduct">
             <img className="checkoutProduct__image" src={image} alt="Product image"/>
@@ -11,6 +12,16 @@ const CheckoutProduct = ({id, image, title, price, rating}) => {
                     <small>$</small>
                     <strong>{price}</strong>
                 </p>
+                <div className="checkoutProduct__rating">
+                    {
+                        Array(rating)
+                        .fill()
+                        .map((_, i) => (
+                            <p>⭐</p>
+                        ))
+                    }
+                </div>
+                <button>Remove from Bag</button>
             </div>
         </div>
     );
