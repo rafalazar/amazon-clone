@@ -35,7 +35,7 @@ const Header = () => {
                 <Link to={!user && '/login'}>
                     <div onClick={handleAuth} className="header__option">
                         <span className="header__optionLineOne">
-                            Hello Guest
+                            {user ? `Hello ${user?.email}` : 'Hello Guest'}
                         </span>
                         <span className="header__optionLineTwo">
                             {user ? 'Sign Out' : 'Sign In'}
