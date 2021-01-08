@@ -2,7 +2,7 @@
 
 This is an Amazon Clone build it with React JS, Node JS, HTML and CSS.
 
-Check it out [here!](https://clone-3ae96.web.app/)
+### Take a look !
 
 ## Home Page! 🏠
 <img align="center" alt="Home Page" width="380px" src="https://i.ibb.co/F48bmVZ/a1.png" />
@@ -34,8 +34,18 @@ Check it out [here!](https://clone-3ae96.web.app/)
 <img align="center" alt="Payment Page" width="380px" src="https://i.ibb.co/tZVBhBs/a5.png" />
 
 
+<br/>
+<br/>
+<br/>
+<br/>
 
 
+### Do you like it?
+
+## Try it yourself [here!](https://clone-3ae96.web.app/) 🚀
+
+<br/>
+<br/>
 
 ---
-Made it with ❤️ by [Rafalazar](https://github.com/rafalazar)
+Made it with 🖤 by [Rafalazar](https://github.com/rafalazar)
